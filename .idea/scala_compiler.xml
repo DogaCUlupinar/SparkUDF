@@ -1,12 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="spark-graphx_2.10,spark-catalyst_2.10,spark-parent,spark-bagel_2.10,spark-tools_2.10,spark-mllib_2.10,spark-network-shuffle_2.10,spark-streaming_2.10,spark-network-common_2.10,spark-hive_2.10,spark-sql_2.10,spark-repl_2.10,spark-assembly_2.10,spark-core_2.10">
+    <profile name="Maven 1" modules="hive,repl,network-common,bagel,mllib,catalyst,assembly,spark,tools,streaming,network-shuffle,sql,graphx,core">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
       <plugins>
         <plugin path="$MAVEN_REPOSITORY$/org/scalamacros/paradise_2.10.4/2.0.1/paradise_2.10.4-2.0.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 1" modules="oldDeps" />
+    <profile name="SBT 10" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/repl/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 11" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/sql/catalyst/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/paradise_2.10.4-2.0.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 12" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/sql/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 13" modules="">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/sql/hive/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 14" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/streaming/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 15" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/tools/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 2" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 3" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/assembly/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 4" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/bagel/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 5" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 6" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/graphx/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 7" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/mllib/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 8" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/network/common/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 9" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/network/shuffle/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
   </component>

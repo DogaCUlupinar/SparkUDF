@@ -1,3 +1,6 @@
+/*
+  * So thy style guide will leave me alone
+ */
 package org.apache.spark.sql.execution
 
 import java.io._
@@ -46,16 +49,19 @@ object CS143Utils {
       // read each object in and attempt to interpret it as a JavaArrayList[Row]
       while ((temp = in.readObject() match {
         case value: JavaArrayList[Row] => value
-        case _: Throwable => throw new RuntimeException(s"Unexpected casting exception while reading from file.")
+        case _: Throwable => throw new RuntimeException(s"Unexpected casting " +
+          s"exception while reading from file.")
       }) != null) {
         // if it succeeds, add it to the result
         result.addAll(temp)
 
-        // we need to create a new ObjectInputStream for each new object we read because of Java stream quirks
+        // we need to create a new ObjectInputStream for each
+        // new object we read because of Java stream quirks
         in = new ObjectInputStream(bytesIn)
       }
     } catch {
-      // ObjectInputStream control flow dictates that an EOFException will be thrown when the file is over -- this is expected
+      // ObjectInputStream control flow dictates that an
+      // EOFException will be thrown when the file is over -- this is expected
       case e: EOFException => // do nothing
       case other: Throwable => throw other
     }
@@ -64,7 +70,8 @@ object CS143Utils {
   }
 
   /**
-   * Reads the next nextChunkSize bytes from the input stream provided. If the previous array read into is availab
+   * Reads the next nextChunkSize bytes from the input stream provided.
+    * If the previous array read into is availab
    * please provide it so as to avoid allocating new object unless absolutely necessary.
    *
    * @param inStream the input stream we are reading from
@@ -72,6 +79,7 @@ object CS143Utils {
    * @param previousArray the previous array we read into
    * @return
    */
+
   def getNextChunkBytes(inStream: InputStream, nextChunkSize: Int, previousArray: Array[Byte] = null): Array[Byte] = {
     var byteArray = previousArray
     if (byteArray == null || byteArray.size != nextChunkSize) {
@@ -91,8 +99,7 @@ object CS143Utils {
    * @param inputSchema
    * @return
    */
-  def getNewProjection(
-                      expressions: Seq[Expression],
+  def getNewProjection(expressions: Seq[Expression],
                       inputSchema: Seq[Attribute]) = new InterpretedProjection(expressions, inputSchema)
 
 

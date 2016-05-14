@@ -1,3 +1,6 @@
+/*
+  *SO the sytle guide leaves me alone
+ */
 package org.apache.spark.sql.execution
 
 import java.io._
@@ -64,6 +67,10 @@ private[sql] class DiskPartition (
    */
   def insert(row: Row) = {
     // IMPLEMENT ME
+    if (this.measurePartitionSize() > this.blockSize){
+      spillPartitionToDisk()
+    }
+    this.blockSize
   }
 
   /**
@@ -97,7 +104,8 @@ private[sql] class DiskPartition (
    */
   def getData(): Iterator[Row] = {
     if (!inputClosed) {
-      throw new SparkException("Should not be reading from file before closing input. Bad things will happen!")
+      throw new SparkException("Should not be reading from " +
+        "file before closing input. Bad things will happen!")
     }
 
     new Iterator[Row] {
@@ -129,7 +137,8 @@ private[sql] class DiskPartition (
   }
 
   /**
-   * Closes this partition, implying that no more data will be written to this partition. If getData()
+   * Closes this partition, implying that no more data will be
+    * * written to this partition. If getData()
    * is called without closing the partition, an error will be thrown.
    *
    * If any data has not been written to disk yet, it should be written. The output stream should
