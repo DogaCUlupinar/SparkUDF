@@ -96,19 +96,50 @@ case class PartitionProject(projectList: Seq[Expression], child: SparkPlan) exte
    */
   def generateIterator(input: Iterator[Row]): Iterator[Row] = {
     // This is the key generator for the course-grained external hashing.
+    // I dont know how to use this lawlll
     val keyGenerator = CS143Utils.getNewProjection(projectList, child.output)
 
+    // fine iteration
+    val generator: (Iterator[Row] => Iterator[Row]) = CS143Utils.generateCachingIterator(projectList, child.output)
+
+
     // IMPLEMENT ME
+    val my_disk_hashed_relation = DiskHashedRelation(input, keyGenerator)
+    val partition_iterator = my_disk_hashed_relation.getIterator()
 
     new Iterator[Row] {
+      var disk_partition: DiskPartition = partition_iterator.next()
+      var data_iterator: Iterator[Row] = generator(disk_partition.getData())
+
       def hasNext() = {
         // IMPLEMENT ME
-        false
+        var has_next: Boolean = false
+        if (data_iterator.hasNext){
+          has_next = true
+        }else{
+          // data_iterator is out lets try a new disk
+          has_next = fetchNextPartition()
+        }
+
+        has_next
       }
 
       def next() = {
         // IMPLEMENT ME
-        null
+        var return_row :Row = null
+        if(data_iterator.hasNext){
+          // still have more in the current partition
+          return_row = data_iterator.next()
+        }else{
+          // need to load th next partition
+          if (fetchNextPartition()){
+            return_row = data_iterator.next()
+          }else{
+              // we are all out of data really no point to this else
+          }
+        }
+
+        return_row
       }
 
       /**
@@ -118,8 +149,13 @@ case class PartitionProject(projectList: Seq[Expression], child: SparkPlan) exte
        * @return
        */
       private def fetchNextPartition(): Boolean  = {
-        // IMPLEMENT ME
-        false
+        var has_next: Boolean = false
+        if(partition_iterator.hasNext){
+          disk_partition = partition_iterator.next()
+          data_iterator = generator(disk_partition.getData())
+          has_next = true
+        }
+        has_next
       }
     }
   }

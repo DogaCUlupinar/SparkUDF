@@ -1,3 +1,7 @@
+/*
+ * would have been easier if i had just changed the syle guide honestly.
+ */
+
 package org.apache.spark.sql.execution
 
 import org.apache.spark.sql.SQLContext
