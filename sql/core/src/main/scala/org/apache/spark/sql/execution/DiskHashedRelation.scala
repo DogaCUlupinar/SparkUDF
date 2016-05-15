@@ -39,12 +39,15 @@ protected [sql] final class GeneralDiskHashedRelation(partitions: Array[DiskPart
     extends DiskHashedRelation with Serializable {
 
   override def getIterator() = {
-    // IMPLEMENT ME
-    null
+    // IMPLEMENT ME DONE
+    this.partitions.iterator
   }
 
   override def closeAllPartitions() = {
-    // IMPLEMENT ME
+    // IMPLEMENT ME DONE
+    for (partition <- partitions.iterator){
+      partition.closePartition()
+    }
   }
 }
 
@@ -212,7 +215,22 @@ private[sql] object DiskHashedRelation {
                 keyGenerator: Projection,
                 size: Int = 64,
                 blockSize: Int = 64000) = {
-    // IMPLEMENT ME
-    null
+    val partition_list: JavaArrayList[DiskPartition] = new JavaArrayList[DiskPartition]()
+    val partition_array: Array[DiskPartition] = new Array[DiskPartition](size)
+
+    for (i <- 0 to size - 1){
+      partition_list.add(new DiskPartition(Integer.toString(i),2000))
+    }
+
+    for (row <- input) {
+      partition_list.get(row.hashCode() % size ).insert(row)
+    }
+
+    // now close the input for all the files
+    for ( partition: DiskPartition <- partition_list.iterator().asScala){
+      partition.closeInput()
+    }
+
+    new GeneralDiskHashedRelation(partition_list.toArray(partition_array))
   }
 }

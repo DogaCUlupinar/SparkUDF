@@ -1,3 +1,6 @@
+/*
+* stupid scala style
+ */
 package org.apache.spark.sql.execution
 
 import org.apache.spark.sql.catalyst.expressions.{Projection, Row}
