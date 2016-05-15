@@ -1,5 +1,6 @@
 package org.apache.spark.sql.execution;
 // no position
+// not preceding
 public  class Exchange$ extends scala.runtime.AbstractFunction2<org.apache.spark.sql.catalyst.plans.physical.Partitioning, org.apache.spark.sql.execution.SparkPlan, org.apache.spark.sql.execution.Exchange> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

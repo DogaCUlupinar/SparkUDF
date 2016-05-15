@@ -21,7 +21,8 @@ public  class CS143Utils$ {
    */
   public  java.util.ArrayList<org.apache.spark.sql.catalyst.expressions.Row> getListFromBytes (byte[] bytes) { throw new RuntimeException(); }
   /**
-   * Reads the next nextChunkSize bytes from the input stream provided. If the previous array read into is availab
+   * Reads the next nextChunkSize bytes from the input stream provided.
+   * If the previous array read into is availab
    * please provide it so as to avoid allocating new object unless absolutely necessary.
    * <p>
    * @param inStream the input stream we are reading from

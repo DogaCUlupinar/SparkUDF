@@ -1,5 +1,6 @@
 package org.apache.spark.sql.execution;
 // no position
+// not preceding
 public  class Project$ extends scala.runtime.AbstractFunction2<scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.NamedExpression>, org.apache.spark.sql.execution.SparkPlan, org.apache.spark.sql.execution.Project> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

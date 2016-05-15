@@ -14,7 +14,7 @@ public  class DiskPartition {
    * <p>
    * @param row the {@link Row} we are adding
    */
-  public  void insert (org.apache.spark.sql.catalyst.expressions.Row row) { throw new RuntimeException(); }
+  public  boolean insert (org.apache.spark.sql.catalyst.expressions.Row row) { throw new RuntimeException(); }
   /**
    * This method converts the data to a byte array and returns the size of the byte array
    * as an estimation of the size of the partition.
@@ -34,7 +34,8 @@ public  class DiskPartition {
    */
   public  scala.collection.Iterator<org.apache.spark.sql.catalyst.expressions.Row> getData () { throw new RuntimeException(); }
   /**
-   * Closes this partition, implying that no more data will be written to this partition. If getData()
+   * Closes this partition, implying that no more data will be
+   * * written to this partition. If getData()
    * is called without closing the partition, an error will be thrown.
    * <p>
    * If any data has not been written to disk yet, it should be written. The output stream should

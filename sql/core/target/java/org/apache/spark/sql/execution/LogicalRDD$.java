@@ -1,5 +1,6 @@
 package org.apache.spark.sql.execution;
 // no position
+// not preceding
 public  class LogicalRDD$ implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.

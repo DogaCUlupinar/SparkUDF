@@ -1,5 +1,6 @@
 package org.apache.spark.sql.execution;
 // no position
+// not preceding
 public  class PhysicalRDD$ extends scala.runtime.AbstractFunction2<scala.collection.Seq<org.apache.spark.sql.catalyst.expressions.Attribute>, org.apache.spark.rdd.RDD<org.apache.spark.sql.catalyst.expressions.Row>, org.apache.spark.sql.execution.PhysicalRDD> implements scala.Serializable {
   /**
    * Static reference to the singleton instance of this Scala object.
