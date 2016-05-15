@@ -4,7 +4,7 @@
 		module="spark-catalyst$sources_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20160511104556"
+		publication="20160514181134"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="hive,repl,network-common,bagel,mllib,catalyst,assembly,spark,tools,streaming,network-shuffle,sql,graphx,core">
+    <profile name="Maven 1" modules="">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -10,7 +10,7 @@
       </plugins>
     </profile>
     <profile name="SBT 1" modules="oldDeps" />
-    <profile name="SBT 10" modules="">
+    <profile name="SBT 10" modules="repl">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -21,7 +21,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 11" modules="">
+    <profile name="SBT 11" modules="catalyst">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -33,7 +33,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/paradise_2.10.4-2.0.1.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 12" modules="">
+    <profile name="SBT 12" modules="sql">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -44,7 +44,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 13" modules="">
+    <profile name="SBT 13" modules="hive">
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
       <parameters>
@@ -54,7 +54,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 14" modules="">
+    <profile name="SBT 14" modules="streaming">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -65,7 +65,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 15" modules="">
+    <profile name="SBT 15" modules="tools">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -76,7 +76,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 2" modules="">
+    <profile name="SBT 2" modules="spark">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -87,7 +87,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 3" modules="">
+    <profile name="SBT 3" modules="assembly">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -98,7 +98,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 4" modules="">
+    <profile name="SBT 4" modules="bagel">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -109,7 +109,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 5" modules="">
+    <profile name="SBT 5" modules="core">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -120,7 +120,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 6" modules="">
+    <profile name="SBT 6" modules="graphx">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -131,7 +131,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 7" modules="">
+    <profile name="SBT 7" modules="mllib">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -142,7 +142,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 8" modules="">
+    <profile name="SBT 8" modules="network-common">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
@@ -153,7 +153,7 @@
         <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
       </plugins>
     </profile>
-    <profile name="SBT 9" modules="">
+    <profile name="SBT 9" modules="network-shuffle">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />

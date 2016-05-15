@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f1075af
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cce3d0
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-mqtt_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->runtime]
@@ -14,7 +14,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-mqtt_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c446634
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45977887
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-zeromq_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->runtime]
@@ -22,7 +22,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-zeromq_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming-flume_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@402dfa7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b25ce2d
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-flume_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming-flume_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->runtime]
@@ -30,7 +30,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-flume_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming-kafka_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33c7272c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@338ea7bf
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-kafka_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming-kafka_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->runtime]
@@ -38,7 +38,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-kafka_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming-twitter_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32fa98f3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b4218dd
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming-twitter_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming-twitter_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->runtime]
@@ -46,7 +46,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming-twitter_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-streaming_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68f9c714
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7daa6e2f
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-streaming_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-streaming_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->runtime]
@@ -54,7 +54,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-streaming_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-mllib_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@128cd74f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@176b8c96
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-mllib_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-mllib_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->runtime]
@@ -62,7 +62,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-mllib_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-bagel_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d7e6eb2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7eab0e48
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-bagel_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-bagel_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->runtime]
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-bagel_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-graphx_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2814cd7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e992498
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-graphx_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-graphx_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->runtime]
@@ -78,7 +78,7 @@
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-graphx_2.10;1.2.0 [compile->master]
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->default(compile)]
 [info] Resolving org.apache.spark#spark-core_2.10;1.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19d5bc40
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ed5abab
 [debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.10;1.2.0
 [debug] 	found org.apache.spark#spark-core_2.10;1.2.0 in sbt-chain
 [debug] == resolving dependencies old-deps#old-deps$sources_2.10;0.1-SNAPSHOT->org.apache.spark#spark-core_2.10;1.2.0 [compile->runtime]
@@ -727,121 +727,31 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-mqtt_2.10;1.2.0!spark-streaming-mqtt_2.10.jar
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming-mqtt_2.10/1.2.0/srcs/spark-streaming-mqtt_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming-mqtt_2.10/1.2.0/spark-streaming-mqtt_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-mqtt_2.10;1.2.0!spark-streaming-mqtt_2.10.jar(src) (445ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming-zeromq_2.10/1.2.0/srcs/spark-streaming-zeromq_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-mqtt_2.10;1.2.0!spark-streaming-mqtt_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-zeromq_2.10;1.2.0!spark-streaming-zeromq_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-zeromq_2.10;1.2.0!spark-streaming-zeromq_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming-zeromq_2.10/1.2.0/spark-streaming-zeromq_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-zeromq_2.10;1.2.0!spark-streaming-zeromq_2.10.jar(src) (383ms)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-flume_2.10;1.2.0!spark-streaming-flume_2.10.jar
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming-flume_2.10/1.2.0/srcs/spark-streaming-flume_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming-flume_2.10/1.2.0/spark-streaming-flume_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-flume_2.10;1.2.0!spark-streaming-flume_2.10.jar(src) (441ms)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-flume_2.10;1.2.0!spark-streaming-flume_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-kafka_2.10;1.2.0!spark-streaming-kafka_2.10.jar
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming-kafka_2.10/1.2.0/srcs/spark-streaming-kafka_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming-kafka_2.10/1.2.0/spark-streaming-kafka_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-kafka_2.10;1.2.0!spark-streaming-kafka_2.10.jar(src) (390ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming-twitter_2.10/1.2.0/srcs/spark-streaming-twitter_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-kafka_2.10;1.2.0!spark-streaming-kafka_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-twitter_2.10;1.2.0!spark-streaming-twitter_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming-twitter_2.10;1.2.0!spark-streaming-twitter_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.10/1.2.0/spark-streaming-twitter_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming-twitter_2.10;1.2.0!spark-streaming-twitter_2.10.jar(src) (472ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.2.0/srcs/spark-streaming_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.2.0!spark-streaming_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.2.0!spark-streaming_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.10/1.2.0/spark-streaming_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.2.0!spark-streaming_2.10.jar(src) (551ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.2.0/srcs/spark-mllib_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.2.0!spark-mllib_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.2.0!spark-mllib_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-mllib_2.10/1.2.0/spark-mllib_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.2.0!spark-mllib_2.10.jar(src) (914ms)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-bagel_2.10;1.2.0!spark-bagel_2.10.jar
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-bagel_2.10/1.2.0/srcs/spark-bagel_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-bagel_2.10/1.2.0/spark-bagel_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-bagel_2.10;1.2.0!spark-bagel_2.10.jar(src) (427ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.2.0/srcs/spark-graphx_2.10-sources.jar
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-bagel_2.10;1.2.0!spark-bagel_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.2.0!spark-graphx_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.2.0!spark-graphx_2.10.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-graphx_2.10/1.2.0/spark-graphx_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.2.0!spark-graphx_2.10.jar(src) (539ms)
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.2.0!spark-core_2.10.jar
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.apache.spark/spark-core_2.10/1.2.0/srcs/spark-core_2.10-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/apache/spark/spark-core_2.10/1.2.0/spark-core_2.10-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.2.0!spark-core_2.10.jar(src) (1047ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.scala-lang/scala-compiler/2.10.4/srcs/scala-compiler-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src) (809ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.scala-lang/scala-library/2.10.4/srcs/scala-library-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.4!scala-library.jar(src) (828ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.scala-lang/scala-reflect/2.10.4/srcs/scala-reflect-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src) (609ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.scala-lang/jline/2.10.4/srcs/jline-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/jline/2.10.4/jline-2.10.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.jar(src) (466ms)
-[debug] 		tried /Users/dulupinar/.ivy2/local/org.fusesource.jansi/jansi/1.4/srcs/jansi-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/fusesource/jansi/jansi/1.4/jansi-1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.4!jansi.jar(src) (378ms)
-[debug] :: resolution report :: resolve 56ms :: artifacts dl 8712ms
+[debug] 	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.2.0!spark-core_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
+[debug] :: resolution report :: resolve 49ms :: artifacts dl 6ms
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT compile produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-compile.xml
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT runtime produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-runtime.xml
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT test produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-test.xml
@@ -855,4 +765,4 @@
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT docs produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-docs.xml
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT pom produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-pom.xml
 [debug] 	report for old-deps#old-deps$sources_2.10;0.1-SNAPSHOT scala-tool produced in /Users/dulupinar/Documents/UCLA/Classes/Spring16/CS143/Project2/SparkUDF/dev/target/resolution-cache/reports/old-deps-old-deps$sources_2.10-scala-tool.xml
-[debug] 	resolve done (56ms resolve - 8712ms download)
+[debug] 	resolve done (49ms resolve - 6ms download)

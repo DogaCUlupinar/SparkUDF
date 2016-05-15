@@ -4,7 +4,7 @@
 		module="spark-streaming$sources_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20160511104552"
+		publication="20160514181127"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

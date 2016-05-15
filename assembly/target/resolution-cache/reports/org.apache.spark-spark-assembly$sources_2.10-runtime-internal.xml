@@ -7,10 +7,10 @@
 		revision="1.3.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160511104529"/>
+		date="20160514181123"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-repl_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104242" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="109">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="108">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -18,7 +18,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-graphx_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104242" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="108">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="107">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -26,7 +26,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-mllib_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104242" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="82">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="82">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="4478" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze_2.10/ivy-0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="breeze_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="415318" time="1307" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze_2.10/srcs/breeze_2.10-0.10-sources.jar">
+					<artifact name="breeze_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="415318" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze_2.10/srcs/breeze_2.10-0.10-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.10/breeze_2.10-0.10-sources.jar"/>
 					</artifact>
 					<artifact name="breeze_2.10" type="jar" ext="jar" status="no" details="" size="12993867" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.10.jar">
@@ -49,7 +49,7 @@
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="spire_2.10">
-			<revision name="0.7.4" status="release" pubdate="20140424082204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
+			<revision name="0.7.4" status="release" pubdate="20140424082204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
 				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3151" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire_2.10/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="1.3.0-SNAPSHOT"/>
@@ -57,19 +57,19 @@
 					<artifact name="spire_2.10" type="jar" ext="jar" status="no" details="" size="7253596" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire_2.10/jars/spire_2.10-0.7.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar"/>
 					</artifact>
-					<artifact name="spire_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="175888" time="632" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire_2.10/srcs/spire_2.10-0.7.4-sources.jar">
+					<artifact name="spire_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175888" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire_2.10/srcs/spire_2.10-0.7.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.spire-math" name="spire-macros_2.10">
-			<revision name="0.7.4" status="release" pubdate="20140424081914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="107">
+			<revision name="0.7.4" status="release" pubdate="20140424081914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
 				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3028" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire-macros_2.10/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="spire-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6151" time="375" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire-macros_2.10/srcs/spire-macros_2.10-0.7.4-sources.jar">
+					<artifact name="spire-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6151" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire-macros_2.10/srcs/spire-macros_2.10-0.7.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar"/>
 					</artifact>
 					<artifact name="spire-macros_2.10" type="jar" ext="jar" status="no" details="" size="79162" time="0" location="/Users/dulupinar/.ivy2/cache/org.spire-math/spire-macros_2.10/jars/spire-macros_2.10-0.7.4.jar">
@@ -79,14 +79,14 @@
 			</revision>
 		</module>
 		<module organisation="com.github.rwl" name="jtransforms">
-			<revision name="2.4.0" status="release" pubdate="20120519070656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
+			<revision name="2.4.0" status="release" pubdate="20120519070656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
 				<license name="MPL" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
 				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
 				<license name="GPL" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2859" time="0" location="/Users/dulupinar/.ivy2/cache/com.github.rwl/jtransforms/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jtransforms" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="224626" time="748" location="/Users/dulupinar/.ivy2/cache/com.github.rwl/jtransforms/srcs/jtransforms-2.4.0-sources.jar">
+					<artifact name="jtransforms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224626" time="0" location="/Users/dulupinar/.ivy2/cache/com.github.rwl/jtransforms/srcs/jtransforms-2.4.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar"/>
 					</artifact>
 					<artifact name="jtransforms" type="jar" ext="jar" status="no" details="" size="764569" time="0" location="/Users/dulupinar/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar">
@@ -96,7 +96,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.opencsv" name="opencsv">
-			<revision name="2.3" status="release" pubdate="20110727220018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
+			<revision name="2.3" status="release" pubdate="20110727220018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3222" time="0" location="/Users/dulupinar/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.3.0-SNAPSHOT"/>
@@ -104,7 +104,7 @@
 					<artifact name="opencsv" type="jar" ext="jar" status="no" details="" size="19827" time="0" location="/Users/dulupinar/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"/>
 					</artifact>
-					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17058" time="539" location="/Users/dulupinar/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar">
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17058" time="0" location="/Users/dulupinar/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -118,7 +118,7 @@
 					<artifact name="core" type="jar" ext="jar" status="no" details="" size="164422" time="0" location="/Users/dulupinar/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"/>
 					</artifact>
-					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="679224" time="1158" location="/Users/dulupinar/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar">
+					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="679224" time="0" location="/Users/dulupinar/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -133,7 +133,7 @@
 					<artifact name="breeze-macros_2.10" type="jar" ext="jar" status="no" details="" size="118419" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.3.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1.jar"/>
 					</artifact>
-					<artifact name="breeze-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5549" time="399" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze-macros_2.10/srcs/breeze-macros_2.10-0.3.1-sources.jar">
+					<artifact name="breeze-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5549" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalanlp/breeze-macros_2.10/srcs/breeze-macros_2.10-0.3.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -148,14 +148,14 @@
 					<artifact name="jblas" type="jar" ext="jar" status="no" details="" size="7487233" time="0" location="/Users/dulupinar/.ivy2/cache/org.jblas/jblas/jars/jblas-1.2.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jblas/jblas/1.2.3/jblas-1.2.3.jar"/>
 					</artifact>
-					<artifact name="jblas" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="135993" time="567" location="/Users/dulupinar/.ivy2/cache/org.jblas/jblas/srcs/jblas-1.2.3-sources.jar">
+					<artifact name="jblas" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="135993" time="0" location="/Users/dulupinar/.ivy2/cache/org.jblas/jblas/srcs/jblas-1.2.3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jblas/jblas/1.2.3/jblas-1.2.3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-sql_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104242" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="84">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="84">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -167,7 +167,7 @@
 				<metadata-artifact status="no" details="" size="5937" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-hadoop/ivy-1.6.0rc3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.6.0rc3" rev-constraint-default="1.6.0rc3" rev-constraint-dynamic="1.6.0rc3" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="parquet-hadoop" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="107180" time="471" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-hadoop/srcs/parquet-hadoop-1.6.0rc3-sources.jar">
+					<artifact name="parquet-hadoop" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="107180" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-hadoop/srcs/parquet-hadoop-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-hadoop/1.6.0rc3/parquet-hadoop-1.6.0rc3-sources.jar"/>
 					</artifact>
 					<artifact name="parquet-hadoop" type="jar" ext="jar" status="no" details="" size="195121" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-hadoop/jars/parquet-hadoop-1.6.0rc3.jar">
@@ -182,7 +182,7 @@
 				<metadata-artifact status="no" details="" size="2655" time="0" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.9.11" rev-constraint-default="1.9.11" rev-constraint-dynamic="1.9.11" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="548045" time="730" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.11-sources.jar">
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548045" time="0" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.11-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11-sources.jar"/>
 					</artifact>
 					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780421" time="0" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.11.jar">
@@ -200,7 +200,7 @@
 					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232131" time="0" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.11.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar"/>
 					</artifact>
-					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="240282" time="719" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.11-sources.jar">
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240282" time="0" location="/Users/dulupinar/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.11-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -211,7 +211,7 @@
 				<metadata-artifact status="no" details="" size="5331" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-jackson/ivy-1.6.0rc3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.6.0rc3" rev-constraint-default="1.6.0rc3" rev-constraint-dynamic="1.6.0rc3" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="parquet-jackson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="806158" time="1188" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-jackson/srcs/parquet-jackson-1.6.0rc3-sources.jar">
+					<artifact name="parquet-jackson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="806158" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-jackson/srcs/parquet-jackson-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-jackson/1.6.0rc3/parquet-jackson-1.6.0rc3-sources.jar"/>
 					</artifact>
 					<artifact name="parquet-jackson" type="jar" ext="jar" status="no" details="" size="1029040" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-jackson/jars/parquet-jackson-1.6.0rc3.jar">
@@ -229,7 +229,7 @@
 					<artifact name="parquet-format" type="jar" ext="jar" status="no" details="" size="375618" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-format/jars/parquet-format-2.2.0-rc1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar"/>
 					</artifact>
-					<artifact name="parquet-format" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="83070" time="437" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-format/srcs/parquet-format-2.2.0-rc1-sources.jar">
+					<artifact name="parquet-format" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="83070" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-format/srcs/parquet-format-2.2.0-rc1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -240,7 +240,7 @@
 				<metadata-artifact status="no" details="" size="6089" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-column/ivy-1.6.0rc3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.6.0rc3" rev-constraint-default="1.6.0rc3" rev-constraint-dynamic="1.6.0rc3" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="parquet-column" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="189258" time="657" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-column/srcs/parquet-column-1.6.0rc3-sources.jar">
+					<artifact name="parquet-column" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="189258" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-column/srcs/parquet-column-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-column/1.6.0rc3/parquet-column-1.6.0rc3-sources.jar"/>
 					</artifact>
 					<artifact name="parquet-column" type="jar" ext="jar" status="no" details="" size="866617" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-column/jars/parquet-column-1.6.0rc3.jar">
@@ -257,7 +257,7 @@
 					<artifact name="parquet-encoding" type="jar" ext="jar" status="no" details="" size="272727" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-encoding/jars/parquet-encoding-1.6.0rc3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3.jar"/>
 					</artifact>
-					<artifact name="parquet-encoding" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="167623" time="601" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-encoding/srcs/parquet-encoding-1.6.0rc3-sources.jar">
+					<artifact name="parquet-encoding" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167623" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-encoding/srcs/parquet-encoding-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-encoding/1.6.0rc3/parquet-encoding-1.6.0rc3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -271,7 +271,7 @@
 					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="73098" time="0" location="/Users/dulupinar/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar"/>
 					</artifact>
-					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="102254" time="471" location="/Users/dulupinar/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.5-sources.jar">
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="102254" time="0" location="/Users/dulupinar/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.5-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -285,7 +285,7 @@
 					<artifact name="parquet-generator" type="jar" ext="jar" status="no" details="" size="15700" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-generator/jars/parquet-generator-1.6.0rc3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar"/>
 					</artifact>
-					<artifact name="parquet-generator" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8989" time="372" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-generator/srcs/parquet-generator-1.6.0rc3-sources.jar">
+					<artifact name="parquet-generator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8989" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-generator/srcs/parquet-generator-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -299,14 +299,14 @@
 					<artifact name="parquet-common" type="jar" ext="jar" status="no" details="" size="15733" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-common/jars/parquet-common-1.6.0rc3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar"/>
 					</artifact>
-					<artifact name="parquet-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11209" time="364" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-common/srcs/parquet-common-1.6.0rc3-sources.jar">
+					<artifact name="parquet-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11209" time="0" location="/Users/dulupinar/.ivy2/cache/com.twitter/parquet-common/srcs/parquet-common-1.6.0rc3-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-catalyst_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104238" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="85">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="85">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -322,14 +322,14 @@
 					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="720704" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.jar"/>
 					</artifact>
-					<artifact name="quasiquotes_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53174" time="518" location="/Users/dulupinar/.ivy2/cache/org.scalamacros/quasiquotes_2.10/srcs/quasiquotes_2.10-2.0.1-sources.jar">
+					<artifact name="quasiquotes_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53174" time="0" location="/Users/dulupinar/.ivy2/cache/org.scalamacros/quasiquotes_2.10/srcs/quasiquotes_2.10-2.0.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-streaming_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104238" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="83">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="83">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -337,7 +337,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-bagel_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104242" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="81">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="81">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -446,7 +446,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104238" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -666,19 +666,6 @@
 					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26517" time="0" location="/Users/dulupinar/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.6-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6-sources.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="net.sourceforge.f2j" name="arpack_combined_all">
-			<revision name="0.1" status="release" pubdate="20130708212740" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://f2j.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
-				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="2441" time="0" location="/Users/dulupinar/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.pom"/>
-				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.3.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="arpack_combined_all" type="jar" ext="jar" status="no" details="" size="1194003" time="0" location="/Users/dulupinar/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar"/>
-					</artifact>
-					<artifact name="arpack_combined_all" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -1389,7 +1376,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104238" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -1397,7 +1384,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.10">
-			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160511104221" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="1.3.0-SNAPSHOT" status="integration" pubdate="20160514181107" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.3.0-SNAPSHOT" rev-constraint-default="1.3.0-SNAPSHOT" rev-constraint-dynamic="1.3.0-SNAPSHOT" callerrev="1.3.0-SNAPSHOT"/>
 				<artifacts>
@@ -1506,7 +1493,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="jline">
-			<revision name="2.10.4" status="release" pubdate="20140318144650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
+			<revision name="2.10.4" status="release" pubdate="20140318144650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="109">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
 				<metadata-artifact status="no" details="" size="2607" time="0" location="/Users/dulupinar/.ivy2/cache/org.scala-lang/jline/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.pom"/>
@@ -1522,7 +1509,7 @@
 			</revision>
 		</module>
 		<module organisation="org.fusesource.jansi" name="jansi">
-			<revision name="1.4" status="release" pubdate="20100715072157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://${forge-project-id}.fusesource.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">
+			<revision name="1.4" status="release" pubdate="20100715072157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://${forge-project-id}.fusesource.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3355" time="0" location="/Users/dulupinar/.ivy2/cache/org.fusesource.jansi/jansi/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom"/>
 				<caller organisation="org.apache.spark" name="spark-assembly$sources_2.10" conf="compile, runtime-internal, runtime, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.3.0-SNAPSHOT"/>

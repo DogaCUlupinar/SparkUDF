@@ -4,7 +4,7 @@
 		module="spark-tools$sources_2.10"
 		revision="1.3.0-SNAPSHOT"
 		status="integration"
-		publication="20160511104558"
+		publication="20160514181137"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
