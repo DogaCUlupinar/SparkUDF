@@ -67,10 +67,14 @@ private[sql] class DiskPartition (
    */
   def insert(row: Row) = {
     // IMPLEMENT ME
-    if (this.measurePartitionSize() > this.blockSize){
+    if (inputClosed) {
+      throw new SparkException("Should not be writing to me anymore, I have been closed")
+    }
+    if (this.measurePartitionSize() > this.blockSize) {
+      // size is too large
       spillPartitionToDisk()
     }
-    this.blockSize
+    data.add(row)
   }
 
   /**
@@ -87,10 +91,13 @@ private[sql] class DiskPartition (
    * Uses the [[Files]] API to write a byte array representing data to a file.
    */
   private[this] def spillPartitionToDisk() = {
-    val bytes: Array[Byte] = getBytesFromList(data)
+    val bytes: Array[Byte] = CS143Utils.getBytesFromList(data)
 
     // This array list stores the sizes of chunks written in order to read them back correctly.
     chunkSizes.add(bytes.size)
+
+    // reinitialize data
+    data.clear()
 
     Files.write(path, bytes, StandardOpenOption.APPEND)
     writtenToDisk = true
@@ -113,14 +120,26 @@ private[sql] class DiskPartition (
       val chunkSizeIterator: Iterator[Int] = chunkSizes.iterator().asScala
       var byteArray: Array[Byte] = null
 
-      override def next() = {
+      override def next(): Row = {
         // IMPLEMENT ME
-        null
+        var row: Row = null
+        if (currentIterator.hasNext){
+          row = currentIterator.next()
+        }else{
+           if (fetchNextChunk()){
+             row = currentIterator.next()
+           }
+        }
+        row
       }
 
-      override def hasNext() = {
+      override def hasNext(): Boolean = {
         // IMPLEMENT ME
-        false
+        if (!currentIterator.hasNext){
+          fetchNextChunk()
+        }
+        currentIterator.hasNext
+
       }
 
       /**
@@ -131,7 +150,14 @@ private[sql] class DiskPartition (
        */
       private[this] def fetchNextChunk(): Boolean = {
         // IMPLEMENT ME
-        false
+        var iterator_empty: Boolean = false
+        if (chunkSizeIterator.hasNext){
+          byteArray = CS143Utils.getNextChunkBytes(inStream,chunkSizeIterator.next(),byteArray )
+          currentIterator = CS143Utils.getListFromBytes(byteArray).iterator().asScala
+          iterator_empty = true
+        }
+
+        iterator_empty
       }
     }
   }
@@ -146,6 +172,10 @@ private[sql] class DiskPartition (
    */
   def closeInput() = {
     // IMPLEMENT ME
+    if (data.size() > 0){
+      spillPartitionToDisk()
+    }
+    outStream.close()
     inputClosed = true
   }
 
